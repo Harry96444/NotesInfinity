@@ -16,8 +16,9 @@
 <title>NOTES INFINITY</title>
 <link rel="icon" href="img/icon.png" type="image/icon">
 <%@include file="all_js_css.jsp"%>
-
-
+<style>
+   #im{height:65vh;width:120vh;}
+</style>
 </head>
 <body>
 
@@ -27,7 +28,8 @@
 
 		<div class="card  shadow bg-white py-5">
 			<div class="text-center text-white mt-2">
-			     <img style="height:65vh;width:120vh;" src="img/n2.jpg">
+			     <!-- <img style="height:65vh;width:120vh;" src="img/n2.jpg"> -->
+			     <img src="img/n2.jpg" id="im" class="img-fluid" alt="Responsive image">
 		    </div>
 		    <br>
          <div class="text-center text-white mt-2">
